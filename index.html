@@ -6,19 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="./assets/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
 
   <!-- ########### SESSÃO PRINCIPAL ########### -->
-  <div id="sessao-principal">
+  <div id="sessao-principal" class="bg-light">
     <div id="cabecalho">
-      <ul>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Articles</a></li>
-      </ul>
+      <div>
+        <button id="btn-dark" class="bg-light">
+          <span class="material-icons">
+            dark_mode
+          </span>
+        </button>
+      </div>
+      <div>
+        <ul id="navegacao" class="bg-light">
+          <li><a href="#" class="">Experience</a></li>
+          <li><a href="#" class="">Projects</a></li>
+          <li><a href="#" class="">Articles</a></li>
+        </ul>
+      </div>
     </div>
-    <div id="conteudo-principal">
+    <div id="conteudo-principal" >
       <div class="content">
         <img src="./assets/imgs/me.jpg" alt="me">
         <h1>Frontend Developer</h1>
@@ -27,7 +38,7 @@
           <li>I'm a computer technician</li>
           <li>I'm studying at UFRN - Campus Natal</li>
         </ul>
-        <ul id="socials">
+        <ul id="socials" class="bg-light">
           <li><a href="https://github.com/axelrammon" target="_blank"><img src="./assets/icons/github.png"></a></li>
           <li><a href="https://www.linkedin.com/in/axel-rammon-536ab6119/" target="_blank"><img src="./assets/icons/linkedin.png"></a></li>
           <li><a href="https://medium.com/@Axel7" target="_blank"><img src="./assets/icons/medium.png"></a></li>
@@ -55,19 +66,6 @@
     </div>
   </div>
 
-  <!-- ########### SESSÃO PROJETOS ########### -->
-  <!-- <div id="sessao-projetos">
-    <div class="container">
-      <h1>Hello, world!</h1>
-      <p>
-        My name is Axel, and I'm a front-end developer,<br>
-        I'm a computer technician at IFRN - Campus João Câmara,<br>
-        and I'm studying a bachelor's degree in Science and Technology at UFRN - Campus Natal
-      </p>
-      <ul id="socials">
-
-      </ul>
-    </div>
-  </div> -->
+  <script src="./assets/main.js"></script>
 </body>
 </html>

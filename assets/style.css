@@ -13,64 +13,68 @@ ul {
 
 li {
   font: normal 400 18px 'Quicksand';
-  color: #024a56;
 }
 
 h1 {
   font: normal 700 32px 'Quicksand';
-  color: #024a56;
   margin: 10px 0;
 }
 
 p {
   font: normal 400 18px 'Quicksand';
-  color: #024a56;
 }
 
 a {
   text-decoration: none;
   font: normal 700 18px 'Quicksand';
-  color: #feffb3;
+}
+
+#btn-dark {
+  background-color: transparent;
+  border: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.material-icons {
+  /* color: #ecf0f1; */
 }
 
 /* ########### CABECALHO ###########  */
 
 #sessao-principal #cabecalho {
-  background-color: #4d998f;
   height: 10vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
-#cabecalho ul {
+#navegacao {
   display: flex;
 }
 
-#cabecalho ul li {
+#navegacao li {
   margin: 0 20px;
 }
 
-#cabecalho ul li a {
+#navegacao li a {
   padding: 10px;
-  border-radius: 5px;
-  transition: .5s;
+  color: #024a56;
 }
 
-#cabecalho ul li a:hover {
-  background-color: #024a56;
-  transition: .5s;
+#navegacao li a:hover {
 }
 
 /* ########### CONTEÚDO ###########  */
 
 #sessao-principal #conteudo-principal {
-  background-color: #b6dcdd;
+  /* background-color: #b6dcdd; */
   /* background-image: linear-gradient(to right, #b6dcdd, #4d998f 80%); */
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* color: #024a56; */
 }
 
 .content img {
@@ -102,6 +106,8 @@ a {
   display: flex;
   flex-direction: row;
   margin: 20px 0;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .content #socials li {
@@ -155,4 +161,14 @@ a {
 #vue {
   background-color: #3eaf7c;
   width: 20%;
+}
+
+.bg-dark {
+  background-color: #060c0f;
+  color: #ecf0f1;
+}
+
+.bg-light {
+  background-color: #b6dcdd;
+  color: #024a56;
 }
