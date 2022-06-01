@@ -12,7 +12,7 @@ ul {
 
 li {
   font: normal 400 18px 'Quicksand';
-  color: #b6dcdd;
+  color: #feffb3;
 }
 
 h1 {
@@ -79,8 +79,9 @@ a {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: #024a56;
+  background-color: #4d998f;
   padding: 50px;
+  border-radius: 10px;
 }
 
 .content #apresentacao {
