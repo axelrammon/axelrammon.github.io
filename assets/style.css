@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font: normal 700 32px 'Quicksand';
+  color: #024a56;
+}
+
+p {
+  font: normal 400 18px 'Quicksand';
+  color: #024a56;
+}
+
+a {
+  text-decoration: none;
+  font: normal 700 18px 'Quicksand';
+  color: #feffb3;
+}
+
+#sessao-principal {
+  height: 100vh;
+}
+
+/* ########### CABECALHO ###########  */
+
+#sessao-principal #cabecalho {
+  background-color: #4d998f;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#cabecalho ul {
+  display: flex;
+}
+
+#cabecalho ul li {
+  margin: 0 20px;
+}
+
+/* ########### CONTEÚDO ###########  */
+
+#sessao-principal #conteudo-principal {
+  background-color: #b6dcdd;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#conteudo-principal img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+#conteudo-principal .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container ul {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.container ul li {
+  margin: 0 10px;
+}
+
+#socials img {
+  width: 40px;
+}
