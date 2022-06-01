@@ -10,6 +10,11 @@ ul {
   list-style: none;
 }
 
+li {
+  font: normal 400 18px 'Quicksand';
+  color: #b6dcdd;
+}
+
 h1 {
   font: normal 700 32px 'Quicksand';
   color: #024a56;
@@ -52,34 +57,59 @@ a {
 
 #sessao-principal #conteudo-principal {
   background-color: #b6dcdd;
+  /* background: linear-gradient(to left,
+  #b6dcdd 23%, #4d998f 0% 40%); */
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#conteudo-principal img {
-  width: 120px;
-  border-radius: 50%;
+#conteudo-principal div {
+  margin: 0 auto;
 }
 
-#conteudo-principal .container {
+#conteudo-principal img {
+  width: 320px;
+  border-radius: 10px;
+}
+
+#conteudo-principal .content {
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  background-color: #024a56;
+  padding: 50px;
 }
 
-.container ul {
+.content #apresentacao {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.content #apresentacao li::before {
+  content: "> ";
+}
+
+.content #socials {
   display: flex;
   flex-direction: row;
   margin: 20px 0;
 }
 
-.container ul li {
+.content #socials li {
   margin: 0 10px;
 }
 
 #socials img {
   width: 40px;
 }
+
+/* ########### SESSÃO PROJETOS ###########  */
+
+#sessao-projetos {
+  height: 100vh;
+}
+
