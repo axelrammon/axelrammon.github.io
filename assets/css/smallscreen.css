@@ -1,0 +1,38 @@
+/* ########### CABECALHO ###########  */
+#navegacao {
+  display: flex;
+}
+
+#navegacao li {
+  margin: 0;
+}
+
+#navegacao li a {
+  font-size: 15px;
+}
+
+/* ########### CONTEÚDO ###########  */
+
+#sessao-principal #conteudo-principal {
+  flex-direction: column;
+  height: 100%;
+}
+
+.content img {
+  width: 150px;
+}
+
+.content #apresentacao li {
+  font-size: 15px;
+}
+
+/* ########### SKILLS ###########  */
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.barra-de-progresso {
+  width: 220%;
+}

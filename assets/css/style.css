@@ -56,25 +56,15 @@ a {
 #navegacao li a {
   padding: 10px;
   color: #024a56;
-  transition: .5s;
-  border-radius: 5px;
-}
-
-#navegacao li a:hover {
-  background-color: #619251;
-  transition: .5s;
 }
 
 /* ########### CONTEÚDO ###########  */
 
 #sessao-principal #conteudo-principal {
-  /* background-color: #b6dcdd; */
-  /* background-image: linear-gradient(to right, #b6dcdd, #4d998f 80%); */
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* color: #024a56; */
 }
 
 .content img {
@@ -89,7 +79,6 @@ a {
   text-align: center;
   padding: 20px;
   height: 90vh;
-  /* border-radius: 10px; */
 }
 
 .content #apresentacao {
