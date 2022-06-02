@@ -18,6 +18,10 @@
   height: 100%;
 }
 
+.content {
+  height: 300px !important;
+}
+
 .content img {
   width: 150px;
 }
