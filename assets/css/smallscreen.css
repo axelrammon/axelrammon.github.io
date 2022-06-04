@@ -11,6 +11,10 @@
   font-size: 15px;
 }
 
+.fa-brands {
+  color: #024a56;
+  font-size: 40px;
+}
 /* ########### CONTEÚDO ###########  */
 
 #sessao-principal #conteudo-principal {
