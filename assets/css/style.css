@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style: none;
   margin: 5px 0;
@@ -166,8 +170,45 @@ a {
 
 /* ########### SKILLS ###########  */
 
+#projetos:target {
+  scroll-margin-bottom: 2em;
+}
+
 #projetos {
   background-color: #024a56;
   color: #ecf0f1;
   height: 100vh;
+}
+
+#artigos:target {
+  scroll-margin-bottom: 2em;
+}
+
+#artigos {
+  background-color: #2196f3;
+  color: #ecf0f1;
+  height: 100vh;
+}
+
+#experiencias:target {
+  scroll-margin-bottom: 2em;
+}
+
+#experiencias {
+  background-color: #d84924;
+  color: #ecf0f1;
+  height: 100vh;
+}
+
+#rodape {
+  background-color: #3eaf7c;
+  color: #ecf0f1;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rodape .p-rodape {
+  font: normal 700 18px 'Quicksand';
 }
