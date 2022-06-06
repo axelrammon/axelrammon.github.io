@@ -29,13 +29,6 @@ a {
   font: normal 700 18px 'Quicksand';
 }
 
-#btn-dark {
-  background-color: transparent;
-  border: none;
-  margin: 0 20px;
-  cursor: pointer;
-}
-
 /* ########### CABECALHO ###########  */
 
 #sessao-principal #cabecalho {
@@ -43,6 +36,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#btn-dark {
+  background-color: transparent;
+  border: none;
+  margin: 0 20px;
+  cursor: pointer;
 }
 
 #navegacao {
@@ -162,4 +162,12 @@ a {
   background-color: #b6dcdd;
   color: #024a56;
   transition: .5s;
+}
+
+/* ########### SKILLS ###########  */
+
+#projetos {
+  background-color: #024a56;
+  color: #ecf0f1;
+  height: 100vh;
 }

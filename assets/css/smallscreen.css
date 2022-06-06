@@ -18,11 +18,10 @@
 
 #sessao-principal #conteudo-principal {
   flex-direction: column;
-  height: 100%;
+  align-items:center;
 }
 
-.content {
-  height: 300px !important;
+#conteudo-principal div {
 }
 
 .content img {
@@ -38,6 +37,7 @@
 .skills {
   display: flex;
   flex-direction: column;
+  
 }
 
 .barra-de-progresso {
