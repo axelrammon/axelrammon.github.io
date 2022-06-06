@@ -19,9 +19,8 @@
 #sessao-principal #conteudo-principal {
   flex-direction: column;
   align-items:center;
-}
-
-#conteudo-principal div {
+  
+  height: 100vh;
 }
 
 .content img {
