@@ -176,15 +176,21 @@ a {
 
 #projetos {
   background-color: #92cfd1;
-  color: #024a56;
   height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #024a56;
+}
+
+#projetos .h1-projetos-title {
+  margin: 0 0 40px 0;
 }
 
 .container-projetos {
   display: flex;
   align-items: center;
-  margin: 0 0px;
 }
 
 .projetos-content {
@@ -192,8 +198,20 @@ a {
   padding: 20px;
   margin: 20px;
   text-align: center;
-  border-radius: 5px;
-  height: 275px;
+  border-radius: 10px;
+  height: 280px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.projetos-content:hover {
+  -webkit-box-shadow: inset -1px 3px 8px 5px #92cfd1, 2px 5px 16px 0px #000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: inset -1px 3px 8px 5px #92cfd1, 2px 5px 16px 0px #024a56, 5px 5px 15px 5px rgba(0,0,0,0);
+  transition: .5s;
+}
+
+.projetos-content a {
+  color: #024a56;
 }
 
 .fa-solid {
@@ -207,7 +225,7 @@ a {
 }
 
 #artigos {
-  background-color: #2196f3;
+  background-color: #b6dcdd;
   color: #ecf0f1;
   height: 100vh;
 }
@@ -217,14 +235,14 @@ a {
 }
 
 #experiencias {
-  background-color: #d84924;
-  color: #ecf0f1;
+  background-color: #92cfd1;
+  color: #024a56;
   height: 100vh;
 }
 
 #rodape {
-  background-color: #3eaf7c;
-  color: #ecf0f1;
+  background-color: #b6dcdd;
+  color: #024a56;
   height: 10vh;
   display: flex;
   justify-content: center;
