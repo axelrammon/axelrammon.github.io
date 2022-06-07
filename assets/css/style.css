@@ -168,17 +168,39 @@ a {
   transition: .5s;
 }
 
-/* ########### SKILLS ###########  */
+/* ########### PROJETOS ###########  */
 
 #projetos:target {
   scroll-margin-bottom: 2em;
 }
 
 #projetos {
-  background-color: #024a56;
-  color: #ecf0f1;
+  background-color: #92cfd1;
+  color: #024a56;
   height: 100vh;
+  display: flex;
 }
+
+.container-projetos {
+  display: flex;
+  align-items: center;
+  margin: 0 0px;
+}
+
+.projetos-content {
+  background-color: #b6dcdd;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 5px;
+  height: 275px;
+}
+
+.fa-solid {
+  font-size: 60px;
+}
+
+/* ########### ARTIGOS ###########  */
 
 #artigos:target {
   scroll-margin-bottom: 2em;
