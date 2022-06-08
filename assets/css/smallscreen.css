@@ -46,22 +46,22 @@
 /* ########### PROJETOS ###########  */
 
 #projetos .h1-projetos-title {
-  margin: 0;
+  margin: 20px 0 0 0;
 }
 
 .container-projetos {
   flex-direction: column;
-  height: 800px;
-  padding: 0px 0;
+  height: 100%;
+  padding: 10px 0;
 }
 
 .projetos-content {
   padding: 10px;
   margin: 10px;
-  height: 220px;
+  height: 230px;
 }
 
 .fa-solid {
   font-size: 40px;
-  padding: 20px;
+  padding: 15px;
 }
