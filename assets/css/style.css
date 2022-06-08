@@ -208,7 +208,7 @@ a {
   margin: 20px;
   text-align: center;
   border-radius: 10px;
-  height: 280px;
+  height: 250px;
   cursor: pointer;
   transition: .5s;
 }
@@ -218,9 +218,18 @@ a {
   transition: .5s;
 }
 
+.projetos-content a {
+  background-color: transparent;
+}
+
 .fa-solid {
   font-size: 60px;
+  background-color: #fbb735;
+  padding: 20px;
+  border-radius: 100%;
 }
+
+
 
 /* ########### EXPERIÊNCIAS ###########  */
 
