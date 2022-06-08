@@ -43,3 +43,7 @@
   width: 220%;
 }
 
+.container-projetos {
+  flex-direction: column;
+  height: 800px;
+}
