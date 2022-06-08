@@ -5,13 +5,12 @@ let nav = document.querySelectorAll('.nav-menu');
 let socials = document.querySelectorAll('.bg-socials');
 let iconDark = document.querySelector('.material-icons');
 let projetos = document.querySelector('#projetos');
-let experiencias = document.querySelector('#experiencias');
 let rodape = document.querySelector('#rodape');
 let ancoraCardProjetos = document.querySelectorAll('.a-projetos-content');
 let darkMode = false;
 
-let componentes = [botao, header, conteudo, experiencias];
-let componentes2 = [projetos, rodape];
+let componentes = [botao, header, conteudo, rodape];
+let componentes2 = [projetos];
 
 botao.addEventListener('click', () => {
   if (darkMode === false) {

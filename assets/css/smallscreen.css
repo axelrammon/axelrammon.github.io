@@ -43,7 +43,15 @@
   width: 220%;
 }
 
+/* ########### PROJETOS ###########  */
+
+#projetos .h1-projetos-title {
+  margin: 0;
+}
+
 .container-projetos {
   flex-direction: column;
-  height: 800px;
+  height: 875px;
+  padding: 20px 0;
 }
+

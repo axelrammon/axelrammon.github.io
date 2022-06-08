@@ -220,26 +220,17 @@ a {
 
 .projetos-content a {
   background-color: transparent;
+  color: #024a56;
 }
 
 .fa-solid {
   font-size: 60px;
-  background-color: #fbb735;
+  background-color: #62a8f8;
   padding: 20px;
   border-radius: 100%;
 }
 
-
-
-/* ########### EXPERIÊNCIAS ###########  */
-
-#experiencias:target {
-  scroll-margin-bottom: 2em;
-}
-
-#experiencias {
-  height: 100vh;
-}
+/* ########### RODAPÉ ###########  */
 
 #rodape {
   height: 10vh;
