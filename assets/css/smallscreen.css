@@ -4,7 +4,7 @@
 }
 
 #navegacao li {
-  margin: 0;
+  margin-left: 10px;
 }
 
 #navegacao li a {
@@ -46,7 +46,7 @@
 /* ########### PROJETOS ###########  */
 
 #projetos .h1-projetos-title {
-  margin: 20px 0 0 0;
+  margin: 40px 0 0 0;
 }
 
 .container-projetos {
@@ -56,7 +56,7 @@
 }
 
 .projetos-content {
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
   height: 230px;
 }
