@@ -157,13 +157,26 @@ a {
 }
 
 .bg-dark {
-  background-color: #060c0f;
+  background-color: #141414;
   color: #ecf0f1 !important;
   transition: .5s;
+  /* #060c0f */
 }
 
 .bg-light {
   background-color: #b6dcdd;
+  color: #024a56;
+  transition: .5s;
+}
+
+.bg-dark2 {
+  background-color: #212121;
+  color: #ecf0f1 !important;
+  transition: .5s;
+}
+
+.bg-light2 {
+  background-color: #92cfd1;
   color: #024a56;
   transition: .5s;
 }
@@ -175,7 +188,6 @@ a {
 }
 
 #projetos {
-  background-color: #92cfd1;
   height: 100vh;
   display: flex;
   flex-direction: column;

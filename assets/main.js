@@ -4,6 +4,7 @@ let conteudo = document.querySelector('#conteudo-principal');
 let nav = document.querySelectorAll('.nav-menu');
 let socials = document.querySelectorAll('.bg-socials');
 let iconDark = document.querySelector('.material-icons');
+let projetos = document.querySelector('#projetos');
 let darkMode = false;
 
 botao.addEventListener('click', () => {
@@ -13,6 +14,7 @@ botao.addEventListener('click', () => {
     conteudo.classList = 'bg-dark';
     nav.forEach(item => {item.classList = "bg-dark"});
     socials.forEach(item => {item.classList = "bg-dark"});
+    projetos.classList = 'bg-dark2'
     iconDark.innerText = 'light_mode';
     iconDark.style.color = 'yellow'
 
@@ -23,6 +25,7 @@ botao.addEventListener('click', () => {
     conteudo.classList = 'bg-light';
     nav.forEach(item => {item.classList = "bg-light"});
     socials.forEach(item => {item.classList = "bg-light"});
+    projetos.classList = 'bg-light2'
     iconDark.innerText = 'dark_mode';
     iconDark.style.color = '#024a56'
 
